@@ -5,16 +5,7 @@ background-color: black;
 color: white;
 }
 
-.site-footer {
-	margin-top: 4em;
-}
-
-.site-footer p {
-	border-top: 1px solid #9764db;
-	padding-top: 2em;
-	padding-bottom: 2em;
-}
-
+/*Header*/
 img.portada{
     display: block;
     margin-left: auto;
@@ -24,6 +15,8 @@ img.portada{
      h1 {
         text-align: center
      }
+
+     /*Menu*/
 .navbar-brand > img {
 	max-height: 40px;
 	width: auto;
@@ -57,7 +50,7 @@ img.portada{
 	border-color: #9764db;
     border-radius: 0.20em;
 }
-
+/*Line decoration*/
 .heading-underline {
 	position: relative;
 	margin-bottom: 2em;
@@ -78,7 +71,7 @@ img.portada{
 	max-width: 100px;
 	background: #9764db;
 }
-
+/*Articles*/
 .section {
     margin-top: 130px;
     margin-left: 2em;
@@ -91,6 +84,7 @@ img.portada{
 .section-lead{
     text-align: justify;
     padding-right:30em;
+    margin-right: 2em;
 }
 .section-read-more a {
 	font-size: 0.85em;
@@ -111,6 +105,8 @@ img.portada{
 .section-read-more:last-child {
 	margin-bottom: 0;
 }
+
+/*SideBar*/
 .sidebar-content {
   position:absolute;
     top:550px; bottom:0; left:1050px; right:0 ;
@@ -123,4 +119,14 @@ img.portada{
 	   max-height: 80px;
 	}
 }
+/*Footer*/
+.site-footer {
+	margin-top: 4em;
+}
 
+.site-footer p {
+	border-top: 1px solid #9764db;
+	padding-top: 2em;
+	padding-bottom: 2em;
+    padding-left: 5em;
+}
