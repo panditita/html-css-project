@@ -10,7 +10,7 @@ color: white;
 }
 
 .site-footer p {
-	border-top: 1px solid #dccdc6;
+	border-top: 1px solid #9764db;
 	padding-top: 2em;
 	padding-bottom: 2em;
 }
@@ -35,33 +35,29 @@ img.portada{
 	text-transform: uppercase;
 	margin: 10px;
 	padding: 5px;
+    text-decoration: none;
+    color: white;
 }
 .navbar {
     width: 800;
     position: absolute;
     top: 450px;
     left: 50%;
-    margin-left: -300px; /*half the size of width*/
+    margin-left: -400px; /*half the size of width*/
 }
-.btn {
-	border-radius: 0.15em;
-	border-color: #ce5f31;
+.nav-item{
+    font-size: 20px;
+    border-radius: 0.20em;
+    background: #9764db;
+    }
+
+.nav-item:hover,
+.nav-item:focus {
+    background: #b192db;
+	border-color: #9764db;
+    border-radius: 0.20em;
 }
-.btn-primary{
-	background-color: #ce5f31;
-	}
-.btn-primary:hover,
-.btn:focus {
-    background:#33cc66;
-	border-color: #33cc66;
-}
-.btn-secondary{
-	color: #ce5f31;
-}
-.btn-secondary:hover,
-.btn:focus {
-	color: #33cc66;
-}
+
 .heading-underline {
 	position: relative;
 	margin-bottom: 2em;
@@ -80,11 +76,12 @@ img.portada{
 	width: 25%;
 	height: 1px;
 	max-width: 100px;
-	background: #ce5f31;
+	background: #9764db;
 }
 
 .section {
-    margin-top: 5em;
+    margin-top: 130px;
+    margin-left: 2em;
 }
 
 .section-title {
@@ -93,7 +90,7 @@ img.portada{
 }
 .section-lead{
     text-align: justify;
-    padding-right: 60em;
+    padding-right:30em;
 }
 .section-read-more a {
 	font-size: 0.85em;
@@ -108,7 +105,7 @@ img.portada{
 
 .section-read-more .fa {
 	margin-right: 0.5em;
-	color: #ce5f31;
+	color: #9764db;
 }
 
 .section-read-more:last-child {
@@ -116,7 +113,7 @@ img.portada{
 }
 .sidebar-content {
   position:absolute;
-    top:500px; bottom:0; left:1050px; right:0 ;
+    top:550px; bottom:0; left:1050px; right:0 ;
     width:300;
 }
 
