@@ -71,9 +71,23 @@ img.portada{
 	max-width: 100px;
 	background: #9764db;
 }
+/*Intro*/
+.intro{
+    margin-top: 130px;
+    margin-left: 2em;
+}
+.intro-title {
+	margin-bottom: 0.5em;
+	font-weight: 700;
+}
+.intro-lead{
+    text-align: justify;
+    padding-right:30em;
+    margin-right: 2em;
+	}
 /*Articles*/
 .section {
-    margin-top: 130px;
+    margin-top: 60px;
     margin-left: 2em;
 }
 
