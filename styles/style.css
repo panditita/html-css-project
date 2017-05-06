@@ -85,6 +85,13 @@ img.portada{
     padding-right:30em;
     margin-right: 2em;
 	}
+	blockquote{
+		color: #dccdc8;
+		font-style: italic;
+		text-align: center;
+   		 margin-right: 10em;
+
+	}
 /*Articles*/
 .section {
     margin-top: 60px;
@@ -94,6 +101,10 @@ img.portada{
 .section-title {
 	margin-bottom: 0.5em;
 	font-weight: 700;
+}
+.section:nth-child(2n+1){
+font-size: 18px;
+color: #b192db;
 }
 .section-lead{
     text-align: justify;
