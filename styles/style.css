@@ -4,7 +4,9 @@ body {
 background-color: black;
 color: white;
 }
-
+*{
+	border: solid red;
+}
 /*Header*/
 img.portada{
     display: block;
@@ -71,31 +73,82 @@ img.portada{
 	max-width: 100px;
 	background: #9764db;
 }
-/*Intro*/
-.intro{
-    margin-top: 130px;
-    margin-left: 2em;
+
+/* FlexiBoxex All articles and sidebar included*/
+.main-container {
+  	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2rem;
+	margin-top: 5rem;
+	border: solid yellow;
+	min-width: 100%;
+	
 }
+.row{
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2rem;
+	min-width: 60%
+}
+.tres-arriba {
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2rem;
+}
+.tres-abajo {
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2rem;
+}
+
+/*Intro*/
+.section-1{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	min-width: 20%
+}
+
 .intro-title {
 	margin-bottom: 0.5em;
 	font-weight: 700;
 }
+
 .intro-lead{
     text-align: justify;
-    padding-right:30em;
-    margin-right: 2em;
-	}
-	blockquote{
+}
+
+blockquote{
 		color: #dccdc8;
 		font-style: italic;
 		text-align: center;
-   		 margin-right: 10em;
 
 	}
+
 /*Articles*/
-.section {
-    margin-top: 60px;
-    margin-left: 2em;
+
+.section-2{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	min-width: 20%
+}
+.section-3{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	min-width: 20%
 }
 .section-title {
 	margin-bottom: 0.5em;
@@ -107,8 +160,6 @@ color: #b192db;
 }
 .section-lead{
     text-align: justify;
-    padding-right:30em;
-    margin-right: 2em;
 }
 .section-read-more a {
 	font-size: 0.85em;
@@ -132,11 +183,21 @@ color: #b192db;
 
 /*SideBar*/
 .sidebar-content {
-  position:absolute;
-    top:550px; bottom:0; left:1050px; right:0 ;
-    width:300;
+	display: flex;
+	flex-direction: column;
+    justify-content: left;
+    align-content: left;
+    min-width:30%;
+	border: solid white
+	
 }
 
+.article-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
 @media screen and (min-width: 992px) {
 
 	.navbar-brand > img {
