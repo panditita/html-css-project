@@ -4,10 +4,7 @@ body {
 background-color: black;
 color: white;
 }
-*{
-	border: solid red;
-}
-/*Header*/
+
 img.portada{
     display: block;
     margin-left: auto;
