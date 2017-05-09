@@ -83,7 +83,7 @@ img.portada{
     margin-bottom: 2rem;
 	margin-top: 5rem;
 	border: solid yellow;
-	min-width: 100%;
+	max-width: 100%;
 	
 }
 .row{
@@ -92,31 +92,27 @@ img.portada{
     justify-content: space-between;
     align-items: baseline;
     margin-bottom: 2rem;
-	min-width: 60%
+	max-width: 80%;
 }
 .tres-arriba {
 	display: flex;
 	flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
     margin-bottom: 2rem;
+	max-width: 100%;
 }
 .tres-abajo {
 	display: flex;
 	flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
     margin-bottom: 2rem;
+	max-width: 100%;
+
 }
 
 /*Intro*/
-.section-1{
-	display: flex;
-	flex-direction: column;
-    justify-content: center;
-	align-items: center;
-	min-width: 20%
-}
 
 .intro-title {
 	margin-bottom: 0.5em;
@@ -133,23 +129,52 @@ blockquote{
 		text-align: center;
 
 	}
-
-/*Articles*/
-
+.section-1{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	max-width: 30%
+}
 .section-2{
 	display: flex;
 	flex-direction: column;
     justify-content: center;
 	align-items: center;
-	min-width: 20%
+	max-width: 30%
 }
 .section-3{
 	display: flex;
 	flex-direction: column;
     justify-content: center;
 	align-items: center;
-	min-width: 20%
+	max-width: 30%
 }
+.section-4{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	max-width: 30%
+}
+.section-5{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	max-width: 30%
+}
+.section-6{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	max-width: 30%
+}
+
+/*Articles*/
+
+
 .section-title {
 	margin-bottom: 0.5em;
 	font-weight: 700;
@@ -187,7 +212,7 @@ color: #b192db;
 	flex-direction: column;
     justify-content: left;
     align-content: left;
-    min-width:30%;
+    max-width:30%;
 	border: solid white
 	
 }
