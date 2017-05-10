@@ -102,7 +102,7 @@ ul{
 	display: flex;
 	flex-direction: row;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: flex-start;
     margin-bottom: 2rem;
 	max-width: 100%;
 }
@@ -110,7 +110,7 @@ ul{
 	display: flex;
 	flex-direction: row;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: flex-start;
     margin-bottom: 2rem;
 	max-width: 100%;
 
@@ -299,14 +299,7 @@ color: #b192db;
 	.main-container .row {
 		max-width: 100%;
 	}
-	.tres-arriba {
-		max-width: 100%;
-		align-items: flex-start;
-	}
-	.tres-abajo  {
-		max-width: 100%;
-		align-items: flex-start;
-	}
+	
 	.sidebar-content {
 		max-width: 100%;
 		
