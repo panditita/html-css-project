@@ -1,9 +1,3 @@
-html,
-body {
-	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-background-color: black;
-color: white;
-}
 
 /* Header */
 .site-header{
@@ -17,7 +11,7 @@ img.portada{
     max-width: 100%;
      }
 
-     h1 {
+h1 {
         text-align: center
      }
 
@@ -243,8 +237,12 @@ color: #b192db;
 	.row > article {
 		max-width: 100%;
 	}
+	#img-mob { display: none; }
+	#img-mob1 { display: block; }
+	#img-mob2 { display: none; }
+	#img-mob3 { display: block; }
+}
 
-	
 	
 	div > ul {
 		display: flex;
@@ -283,5 +281,17 @@ color: #b192db;
 		max-width: 100%;
 		
 	}
+	#img-mob { display: none; }
+	#img-mob1 { display: block; }
+	#img-mob2 { display: none; }
+	#img-mob3 { display: block; }
 
 }
+@media screen and (min-width: 900px)  {
+
+	#img-mob { display: block; }
+	#img-mob1 { display: none; }
+	#img-mob2 { display: none; }
+	#img-mob3 { display: block; }
+	
+	}
